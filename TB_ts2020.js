@@ -434,10 +434,5 @@ function ts2020_for_airlineworker_start() {
 
 };
 
-
-//setInterval(afterschool_for_personal_start, 60000 * 10);
-//setInterval(afterschool_for_company_start, 60000 * 10);
-//afterschool_for_personal_start();
-//afterschool_for_company_start();
-
-ts2020_for_airlineworker_start();
+setInterval(ts2020_for_airlineworker_start, 1000 * 60 * 60);    // 1시간
+afterschool_for_company_start();
