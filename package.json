@@ -1,0 +1,24 @@
+{
+  "name": "TB_ts2020",
+  "version": "1.0.0",
+  "description": "ts2020 crawler project",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gandol2/TB_ts2020.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.2",
+    "iconv-lite": "^0.4.19",
+    "jsonfile": "^4.0.0",
+    "node-telegram-bot-api": "^0.28.0",
+    "request": "^2.83.0",
+    "sync-request": "^4.1.0"
+  },
+  "main": "TB_ts2020.js",
+  "scripts": {
+    "run": "node TB_ts2020.js"
+  },
+  "author": "gandol2",
+  "license": "ISC"
+}
