@@ -10,7 +10,7 @@ var jsonfile = require('jsonfile');
 const userFilePath = __dirname + "/user.json";
 const adminFilePath = __dirname + "/admin.json";
 
-
+console.log("============[START Progream]============");
 
 try {
     jsonfile.readFileSync(userFilePath);
